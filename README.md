@@ -92,15 +92,15 @@ The most important knobs are:
 
 ---
 
-## Results
+## Results on Two Moons
 
-### Two Moons
+### Training Step 0
 
-![Two moons result](assets/moons_final.png)
+![Two moons result](assets/moons_steo_0.png)
 
-### Spirals
+### Training Step 4000
 
-![Spirals result](assets/spirals_final.png)
+![Spirals result](assets/moons_step_4000.png)
 
 ---
 
