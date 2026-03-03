@@ -52,7 +52,7 @@ pip install -r requirements.txt
 Open `notebooks/drifting_experiments.ipynb`, then set the config path near the top of the notebook:
 
 ```python
-CFG_PATH = "../configs/toy_moons.yaml"
+CFG_PATH = "../configs/toy_drifting.yaml"
 ```
 
 Run all cells. Outputs will be saved to the directory specified by `logging.run_dir` in the config.
@@ -60,7 +60,7 @@ Run all cells. Outputs will be saved to the directory specified by `logging.run_
 ### Option B: Script
 
 ```bash
-python scripts/train.py --config configs/toy_moons.yaml
+python scripts/train.py --config configs/toy_drifting.yaml
 ```
 
 ---
@@ -130,5 +130,3 @@ Runs are seeded via `system.seed`. Note that CUDA operations can still be nondet
 If you use this repo, please cite the original paper: *Generative Modeling via Drifting*.
 
 This repo is an educational toy implementation and is not affiliated with the authors.
-
-```
