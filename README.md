@@ -96,7 +96,7 @@ The most important knobs are:
 
 ### Training Step 0
 
-![Two moons result](assets/moons_steo_0.png)
+![Two moons result](assets/moons_step_0.png)
 
 ### Training Step 4000
 
