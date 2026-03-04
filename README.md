@@ -1,4 +1,4 @@
-# Drifting Playground — Generative Modeling via Drifting
+# Generative Modeling via Drifting
 
 A minimal, readable implementation of the *core training idea* from **Generative Modeling via Drifting**:
 a one-step generator trained by regressing to a **stop-gradient drifted target** computed from a **drifting field**.
